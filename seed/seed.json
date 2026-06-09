@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Kunnumpurathu Kudumbam",
+    "subtitle": "Puthencavu · Chengannur · Kerala",
+    "rootId": "p_kochukoshy"
+  },
+  "history": "# The Kunnumpurathu Kudumbam\n\n*Puthencavu, Chengannur, Kerala*\n\nThe Kunnumpurathu family has its roots in **Puthencavu**, a village on the southern bank of the river Pamba, about two kilometres east of Chengannur in the Alappuzha district of Kerala. The family name itself — *Kunnumpurathu* — speaks of the land: \"upon the hill\".\n\nOver the generations the kudumbam has grown into several branches, among them the **Kochuveettil** branch, each with its own homes, stories and distinguished members.\n\n## Notable members\n\n- **K. G. Kurien** — biblical scholar and a leader of the Brethren Church.\n- **Dr. K. K. Kochukoshy** — former Librarian of the Central Reference Library, Kolkata, and member of the Working Group on Libraries of the National Knowledge Commission, Government of India.\n\n---\n\n*This page is a beginning, not an end. Press “Edit this page” above to correct, expand and enrich the family story — the origins of the tharavad, the branches, the migrations, the church, the land. The fuller account already gathered at kunnumpurathu.com may be copied here and continued.*",
+  "persons": {
+    "p_kochukoshy": {
+      "id": "p_kochukoshy",
+      "name": "Dr. K. K. Kochukoshy",
+      "malayalamName": "",
+      "gender": "M",
+      "birthDate": "1952",
+      "birthPlace": "Puthencavu, Chengannur, Kerala",
+      "deathDate": "",
+      "deathPlace": "",
+      "living": true,
+      "occupation": "Librarian (retired), Central Reference Library, Kolkata",
+      "education": "",
+      "branch": "Kunnumpurathu",
+      "bio": "Former Librarian of the Central Reference Library, Kolkata, which functions under the National Library of India. Served as a member of the Working Group on Libraries constituted by the National Knowledge Commission, Government of India. A devoted student of family and local history, and the keeper of the Kunnumpurathu family record.",
+      "notes": "Birth year and details to be confirmed and completed.",
+      "photo": ""
+    },
+    "p_kgkurien": {
+      "id": "p_kgkurien",
+      "name": "K. G. Kurien",
+      "malayalamName": "",
+      "gender": "M",
+      "birthDate": "",
+      "birthPlace": "Puthencavu, Chengannur, Kerala",
+      "deathDate": "",
+      "deathPlace": "",
+      "living": false,
+      "occupation": "Biblical scholar; leader of the Brethren Church",
+      "education": "",
+      "branch": "Kunnumpurathu",
+      "bio": "A biblical scholar and a leader of the Brethren Church, remembered among the notable members of the Kunnumpurathu family.",
+      "notes": "His exact place in the tree is not yet recorded — please connect him to his parents and children using the buttons on this page.",
+      "photo": ""
+    },
+    "p_vivek": {
+      "id": "p_vivek",
+      "name": "Vivek Koshy",
+      "malayalamName": "",
+      "gender": "M",
+      "birthDate": "",
+      "birthPlace": "",
+      "deathDate": "",
+      "deathPlace": "",
+      "living": true,
+      "occupation": "",
+      "education": "",
+      "branch": "Kunnumpurathu",
+      "bio": "",
+      "notes": "Details to be filled in.",
+      "photo": ""
+    }
+  },
+  "unions": {
+    "u_kochukoshy": {
+      "id": "u_kochukoshy",
+      "partner1": "p_kochukoshy",
+      "partner2": null,
+      "marriageDate": "",
+      "marriagePlace": "",
+      "children": ["p_vivek"]
+    }
+  }
+}

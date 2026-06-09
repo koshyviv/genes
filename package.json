@@ -1,0 +1,14 @@
+{
+  "name": "kunnumpurathu-family-tree",
+  "version": "1.0.0",
+  "description": "Visual family tree and history book for the Kunnumpurathu Kudumbam",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node test/test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kunnumpurathu Kudumbam — Family Tree</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>🌳</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead">
+      <div class="masthead-rule"></div>
+      <h1 id="site-title">Kunnumpurathu Kudumbam</h1>
+      <p id="site-subtitle" class="subtitle">Puthencavu · Chengannur · Kerala</p>
+      <div class="masthead-rule"></div>
+    </div>
+    <nav class="main-nav" aria-label="Main">
+      <a href="#tree" data-nav="tree" class="nav-link">🌳 Family Tree</a>
+      <a href="#people" data-nav="people" class="nav-link">👥 All People</a>
+      <a href="#history" data-nav="history" class="nav-link">📜 Our History</a>
+      <div class="nav-tools">
+        <div class="search-wrap">
+          <input type="search" id="search-input" placeholder="Find a person…" aria-label="Find a person" autocomplete="off">
+          <div id="search-results" class="search-results" hidden></div>
+        </div>
+        <button id="font-toggle" class="btn btn-quiet" title="Make the text bigger or smaller">A<span class="font-toggle-big">A</span></button>
+        <button id="auth-btn" class="btn btn-quiet" hidden>Sign in to edit</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="view" class="view"></main>
+
+  <footer class="site-footer">
+    <span id="footer-count"></span>
+    <span class="footer-sep">·</span>
+    <a href="/api/export" download>Download a backup</a>
+    <span class="footer-sep">·</span>
+    <button id="import-btn" class="linklike">Restore from backup</button>
+    <input type="file" id="import-file" accept="application/json" hidden>
+  </footer>
+
+  <div id="modal-root"></div>
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/tree.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

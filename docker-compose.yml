@@ -1,0 +1,16 @@
+services:
+  familytree:
+    build: .
+    container_name: kunnumpurathu-familytree
+    ports:
+      - "8080:8080"
+    volumes:
+      - familytree-data:/data
+    environment:
+      # Set a password to require sign-in before editing.
+      # Leave empty to allow anyone who can reach the site to edit.
+      EDIT_PASSWORD: ${EDIT_PASSWORD:-}
+    restart: unless-stopped
+
+volumes:
+  familytree-data:
