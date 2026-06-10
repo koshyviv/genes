@@ -79,15 +79,15 @@ async function main() {
   assert.strictEqual(r.data.occupation, 'Teacher');
   assert.strictEqual(r.data.name, 'Test Amma');
 
-  // marry into existing union slot (p_kochukoshy has a single-parent union)
-  r = await api('PUT', '/api/unions/u_kochukoshy', { partner2: amma.id });
+  // marry into existing union slot (p_keevarchan has a single-parent union)
+  r = await api('PUT', '/api/unions/u_keevarchan', { partner2: amma.id });
   assert.strictEqual(r.status, 200);
   assert.strictEqual(r.data.partner2, amma.id);
 
   // new child
   r = await api('POST', '/api/persons', { name: 'Test Child' });
   const child = r.data;
-  r = await api('POST', '/api/unions/u_kochukoshy/children', { childId: child.id });
+  r = await api('POST', '/api/unions/u_keevarchan/children', { childId: child.id });
   assert.strictEqual(r.status, 200);
   assert.ok(r.data.children.includes(child.id));
 
@@ -109,7 +109,7 @@ async function main() {
   r = await api('DELETE', '/api/persons/' + child.id);
   assert.strictEqual(r.status, 200);
   r = await api('GET', '/api/data');
-  assert.ok(!r.data.unions.u_kochukoshy.children.includes(child.id));
+  assert.ok(!r.data.unions.u_keevarchan.children.includes(child.id));
 
   // export & import round-trip
   const exported = await api('GET', '/api/export');
